@@ -1,0 +1,16 @@
+.section-padding {
+  padding: 46px 0;
+  transition: padding ease-in-out 500ms;
+}
+
+@media screen and (max-width: 768px) {
+  .section-padding {
+    padding: 44px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-padding {
+    padding: 32px 0;
+  }
+}
