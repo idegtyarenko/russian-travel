@@ -1,4 +1,4 @@
-.lead {
+.intro {
   max-width: 984px;
   margin: 0 auto;
   padding: 46px 0;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .lead {
+  .intro {
     padding: 44px 0;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .lead {
+  .intro {
     padding: 32px 0;
   }
 }

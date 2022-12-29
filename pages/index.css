@@ -13,3 +13,10 @@
 @import url('../blocks/lead/__image/lead__image.css');
 @import url('../blocks/lead/__image-wrapper/lead__image-wrapper.css');
 @import url('../blocks/lead/__image-caption/lead__image-caption.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__content/intro__content.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__factoids/intro__factoids.css');
+@import url('../blocks/intro/__factoid/intro__factoid.css');
+@import url('../blocks/intro/__factoid-name/intro__factoid-name.css');

@@ -7,7 +7,7 @@
   transition: margin-left ease-in-out 300ms;
 }
 
-@media screen and (max-width: 956px) {
+@media screen and (max-width: 1016px) {
   .lead__image-caption {
     margin-left: 24px;
   }
