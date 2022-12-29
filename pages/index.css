@@ -25,3 +25,6 @@
 @import url('../blocks/intro/__factoids/intro__factoids.css');
 @import url('../blocks/intro/__factoid/intro__factoid.css');
 @import url('../blocks/intro/__factoid-name/intro__factoid-name.css');
+
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__photo/photo-grid__photo.css');
