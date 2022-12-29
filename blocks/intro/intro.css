@@ -1,18 +1,4 @@
 .intro {
   max-width: 984px;
   margin: 0 auto;
-  padding: 46px 0;
-  transition: padding ease-in-out 500ms;
-}
-
-@media screen and (max-width: 768px) {
-  .intro {
-    padding: 44px 0;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .intro {
-    padding: 32px 0;
-  }
 }
