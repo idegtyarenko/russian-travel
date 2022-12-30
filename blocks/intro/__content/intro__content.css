@@ -6,6 +6,11 @@
 @media screen and (max-width:1016px) {
   .intro__content {
     max-width: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .intro__content {
     width: calc(100% - 48px);
     padding: 0 24px;
   }
