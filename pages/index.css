@@ -2,6 +2,7 @@
 
 @import url('../blocks/page/page.css');
 @import url('../blocks/abbr/abbr.css');
+@import url('../blocks/link/link.css');
 @import url('../blocks/section-padding/section-padding.css');
 
 @import url('../blocks/header/header.css');

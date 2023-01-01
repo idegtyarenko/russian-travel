@@ -1,9 +1,3 @@
 .header__language-link {
-  color: inherit;
   text-decoration: none;
-  transition: opacity 150ms ease;
-}
-
-.header__language-link:hover {
-  opacity: 80%;
 }
