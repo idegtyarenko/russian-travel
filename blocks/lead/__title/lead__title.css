@@ -1,11 +1,11 @@
 .lead__title {
-  margin: 0 24px;
+  margin: 0;
   text-rendering: optimizeLegibility;
   text-align: center;
   font-weight: 800;
   font-size: 96px;
   line-height: 100px;
-  transition: 100ms;
+  transition: all ease-in-out 100ms;
 }
 
 @media screen and (max-width: 760px) {
