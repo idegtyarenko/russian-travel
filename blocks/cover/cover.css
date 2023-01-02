@@ -17,17 +17,20 @@
   .cover {
     width: 100vw;
     margin-left: -48px;
+    padding-bottom: calc((100% + 48px*2)/1.6);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .cover {
     margin-left: -24px;
+    padding-bottom: calc((100% + 24px*2)/1.6);
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
     margin-left: -16px;
+    padding-bottom: calc((100% + 16px*2)/1.6);
   }
 }
