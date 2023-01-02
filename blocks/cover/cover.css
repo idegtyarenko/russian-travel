@@ -1,15 +1,23 @@
 .cover {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 32px;
+  text-decoration: none;
+  color: white;
   position: relative;
   width: 1360px;
-  padding-bottom: 850px;
+  aspect-ratio: 1.6;
   margin: 0 auto;
+  background-image: url(../../../images/cover_background.jpg);
+  background-size: cover;
 }
 
 @media screen and (max-width: 1455px) {
   .cover {
     width: 100%;
-    padding-bottom: calc(100%/1.6);
   }
 }
 
@@ -17,20 +25,24 @@
   .cover {
     width: 100vw;
     margin-left: -48px;
-    padding-bottom: calc((100% + 48px*2)/1.6);
   }
 }
 
 @media screen and (max-width: 800px) {
   .cover {
     margin-left: -24px;
-    padding-bottom: calc((100% + 24px*2)/1.6);
+  }
+}
+
+@media screen and (max-width:600px) {
+  .cover {
+    row-gap: 16px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
     margin-left: -16px;
-    padding-bottom: calc((100% + 16px*2)/1.6);
+    background-image: url(../../../images/cover_background-mobile.jpg);
   }
 }
