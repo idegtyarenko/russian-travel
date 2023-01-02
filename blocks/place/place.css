@@ -4,7 +4,6 @@
   margin: 0 auto;
   grid-template-columns: 1fr 50%;
   gap: 48px 4%;
-  transition: padding ease-in-out 300ms;
 }
 
 .place:not(:last-child) {

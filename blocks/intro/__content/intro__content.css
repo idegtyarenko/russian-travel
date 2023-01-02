@@ -1,6 +1,5 @@
 .intro__content {
   max-width: 690px;
-  transition: width ease-in-out 300ms;
 }
 
 @media screen and (max-width:1016px) {
