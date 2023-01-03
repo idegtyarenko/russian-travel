@@ -11,7 +11,7 @@
   width: 1360px;
   aspect-ratio: 1.6;
   margin: 0 auto;
-  background-image: url(../../../images/cover_background.jpg);
+  background-image: url(../../images/cover_background-mobile.jpg);
   background-size: cover;
 }
 
@@ -43,6 +43,6 @@
 @media screen and (max-width: 425px) {
   .cover {
     margin-left: -16px;
-    background-image: url(../../../images/cover_background-mobile.jpg);
+    background-image: url(../../images/cover_background-mobile.jpg);
   }
 }
