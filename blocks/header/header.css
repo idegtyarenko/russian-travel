@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
-  transition: padding ease-in-out 300ms;
   align-items: flex-end;
 }
 

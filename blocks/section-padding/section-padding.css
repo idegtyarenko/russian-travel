@@ -1,6 +1,5 @@
 .section-padding {
   padding: 46px 0;
-  transition: padding ease-in-out 300ms;
 }
 
 @media screen and (max-width: 768px) {
