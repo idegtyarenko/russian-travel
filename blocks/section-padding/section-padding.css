@@ -2,7 +2,7 @@
   padding: 46px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .section-padding {
     padding: 44px 0;
   }
