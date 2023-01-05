@@ -3,10 +3,6 @@
   justify-items: center;
 }
 
-.lead > * {
-  grid-column: 3;
-}
-
 @media screen and (max-width: 840px) {
   .lead {
     grid-column: 1 / -1;
