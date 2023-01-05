@@ -2,9 +2,8 @@
   width: 100%;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 600px) {
   .place__image {
-    margin: 0 -16px;
-    width: calc(100% + 32px);
+    grid-column: 1 / -1;
   }
 }

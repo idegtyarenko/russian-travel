@@ -1,4 +1,6 @@
 .cover {
+  grid-column: 2 / -2;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,9 +10,7 @@
   text-decoration: none;
   color: white;
   position: relative;
-  width: 1360px;
   aspect-ratio: 1.6;
-  margin: 0 auto;
   background-image: url(../../images/cover_background-mobile.jpg);
   background-size: cover;
   background-position: center;
@@ -32,23 +32,9 @@
   background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (max-width: 1455px) {
-  .cover {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .cover {
-    width: calc(100% + 48px*2);
-    margin-left: -48px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .cover {
-    width: calc(100% + 24px*2);
-    margin-left: -24px;
+    grid-column: 1 / -1;
   }
 }
 
@@ -60,8 +46,6 @@
 
 @media screen and (max-width: 425px) {
   .cover {
-    width: calc(100% + 16px*2);
-    margin-left: -16px;
     background-image: url(../../images/cover_background-mobile.jpg);
   }
 }

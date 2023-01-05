@@ -1,15 +1,16 @@
-.section-padding {
+.page__section {
+  grid-column: 3;
   padding: 46px 0;
 }
 
-@media screen and (max-width: 800px) {
-  .section-padding {
+@media screen and (max-width: 840px) {
+  .page__section {
     padding: 44px 0;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .section-padding {
+  .page__section {
     padding: 32px 0;
   }
 }

@@ -13,6 +13,12 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .place__title {
+    grid-column: 2 / -2;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .place__title {
     font-size: 32px;

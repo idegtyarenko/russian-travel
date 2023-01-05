@@ -1,4 +1,20 @@
 .lead {
-  max-width: 984px;
-  margin: 0 auto;
+  row-gap: 32px;
+  justify-items: center;
+}
+
+.lead > * {
+  grid-column: 3;
+}
+
+@media screen and (max-width: 840px) {
+  .lead {
+    grid-column: 1 / -1;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead {
+    row-gap: 16px;
+  }
 }

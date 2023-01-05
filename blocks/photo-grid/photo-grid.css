@@ -1,8 +1,7 @@
 .photo-grid {
-  margin: 0 auto;
+  grid-column: 2 / -2;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  max-width: 1363px; /* Не даю появляться пятой колонке, потому что тогда последняя строка заполняется не целиком */
   gap: 16px;
 }
 

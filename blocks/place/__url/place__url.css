@@ -5,3 +5,9 @@
   justify-content: end;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 600px) {
+  .place__url {
+    grid-column: 2 / -2;
+  }
+}

@@ -1,8 +1,9 @@
 .header {
+  grid-column: 2 / -2;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 10px;
   align-items: flex-end;
+  padding: 28px 0 10px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -11,14 +12,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 840px) {
   .header {
-    padding-bottom: 4px;
+    padding: 28px 0 4px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
-    padding-bottom: 16px;
+    padding: 16px 0 16px;
   }
 }
